@@ -10,18 +10,18 @@ const styles = {
 // We assign them to their own variable names
 function Nav({ currentPage, handlePageChange }) {
   return (
-    <nav class="navbar shadow rounded-3 sticky-top navbar-expand-lg navbar-dark py-2" style={styles.nav}>
-        <a class="navbar-brand mx-3" href="#home" onClick={() => handlePageChange('Home')}>
+    <nav className="navbar shadow rounded-3 sticky-top navbar-expand-lg navbar-dark py-2" style={styles.nav}>
+        <a className="navbar-brand mx-3" href="#home" onClick={() => handlePageChange('Home')}>
             
             <h1> Portfolio</h1>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-3 ms-auto">
-                <li class="nav-item mx-2">
-                    <button type="button" class="btn btn-outline-light" >
+        <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav mx-3 ms-auto">
+                <li className="nav-item mx-2">
+                    <button type="button" className="btn btn-outline-light" >
                         <a 
                             href="#about"
                             onClick={() => handlePageChange('About')}
@@ -30,8 +30,8 @@ function Nav({ currentPage, handlePageChange }) {
                         </a>
                     </button>
                 </li>
-                <li  class="nav-item mx-2">
-                    <button type="button" class="btn btn-outline-light">
+                <li  className="nav-item mx-2">
+                    <button type="button" className="btn btn-outline-light">
                         <a 
                             href="#projects"
                             onClick={() => handlePageChange('Projects')}
@@ -40,8 +40,8 @@ function Nav({ currentPage, handlePageChange }) {
                         </a>                    
                     </button>
                 </li>
-                <li class="nav-item mx-2">
-                    <button type="button" class="btn btn-outline-light">
+                <li className="nav-item mx-2">
+                    <button type="button" className="btn btn-outline-light">
                         <a 
                             href="#contact"
                             onClick={() => handlePageChange('Contact')}
