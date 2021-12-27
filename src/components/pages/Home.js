@@ -11,13 +11,13 @@ export default function Home() {
                 <p class="fw-bold py-0 my-0">-OR-</p>
                 <p class="fw-bold pt-0 mt-0">Let's get straight to business!</p>
                 <button type="button" class="btn btn-outline-dark mx-2">
-                    <a target="_blank" class="nav-link active text-reset" href="https://github.com/konnerhartman">Github</a>
+                    <a target="_blank" rel="noreferrer" class="nav-link active text-reset" href="https://github.com/konnerhartman">Github</a>
                 </button>
                 <button type="button" class="btn btn-outline-dark mx-2">
-                    <a target="_blank" class="nav-link active text-reset" href="https://www.linkedin.com/in/konner-hartman/">LinkedIn</a>
+                    <a target="_blank" rel="noreferrer" class="nav-link active text-reset" href="https://www.linkedin.com/in/konner-hartman/">LinkedIn</a>
                 </button>
                 <button type="button" class="btn btn-outline-dark mx-2">
-                    <a target="_blank" class="nav-link active text-reset" href="https://drive.google.com/file/d/1JEeGyZeOsCBbJvjaGcXqMN_F2mmo1N4F/view">Resume</a>
+                    <a target="_blank" rel="noreferrer" class="nav-link active text-reset" href="https://drive.google.com/file/d/1JEeGyZeOsCBbJvjaGcXqMN_F2mmo1N4F/view">Resume</a>
                 </button>
             </div>
         </div>
