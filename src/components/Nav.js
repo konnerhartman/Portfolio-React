@@ -11,7 +11,7 @@ const styles = {
 function Nav({ currentPage, handlePageChange }) {
   return (
     <nav class="navbar shadow rounded-3 sticky-top navbar-expand-lg navbar-dark py-2" style={styles.nav}>
-        <a class="navbar-brand mx-3" href="https://konnerhartman.github.io/K.-Hartman-Portfolio/">
+        <a class="navbar-brand mx-3" href="#home" onClick={() => handlePageChange('Home')}>
             
             <h1> Portfolio</h1>
         </a>
@@ -32,12 +32,22 @@ function Nav({ currentPage, handlePageChange }) {
                 </li>
                 <li  class="nav-item mx-2">
                     <button type="button" class="btn btn-outline-light">
-                        <a id="myWorkBtn" class="nav-link active text-reset" href="#projects">My Work</a>
+                        <a 
+                            href="#projects"
+                            onClick={() => handlePageChange('Projects')}
+                            // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+                            className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>My Work
+                        </a>                    
                     </button>
                 </li>
                 <li class="nav-item mx-2">
                     <button type="button" class="btn btn-outline-light">
-                        <a id="reachMeBtn" class="nav-link active text-reset" href="#contact">Reach Out</a>
+                        <a 
+                            href="#contact"
+                            onClick={() => handlePageChange('Contact')}
+                            // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+                            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Reach Out
+                        </a>                    
                     </button>
                 </li>
             </ul>
