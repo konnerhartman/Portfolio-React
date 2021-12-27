@@ -2,20 +2,25 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+    <div class="col-lg-8">
+        <div id="mainLogo">
+            <div class="my-5 mx-5 px-5 text-center">
+                {/* <img class="img-fluid d-block my-5" alt="Responsive image"  height="300px" src="./assets/images/KH-LOGO copy.png" alt="Konner Hartman's logo."> */}
+                <h2>FULL STACK WEB DEVELOPER</h2>
+                <p class="fw-bold py-0 my-0">Click any of the links in the navigation bar above to learn a little about me.</p>
+                <p class="fw-bold py-0 my-0">-OR-</p>
+                <p class="fw-bold pt-0 mt-0">Let's get straight to business!</p>
+                <button type="button" class="btn btn-outline-dark mx-2">
+                    <a target="_blank" class="nav-link active text-reset" href="https://github.com/konnerhartman">Github</a>
+                </button>
+                <button type="button" class="btn btn-outline-dark mx-2">
+                    <a target="_blank" class="nav-link active text-reset" href="https://www.linkedin.com/in/konner-hartman/">LinkedIn</a>
+                </button>
+                <button type="button" class="btn btn-outline-dark mx-2">
+                    <a target="_blank" class="nav-link active text-reset" href="https://drive.google.com/file/d/1JEeGyZeOsCBbJvjaGcXqMN_F2mmo1N4F/view">Resume</a>
+                </button>
+            </div>
+        </div>
     </div>
   );
 }
