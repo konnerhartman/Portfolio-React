@@ -13,10 +13,10 @@ export default function PortfolioContainer() {
     if (currentPage === 'Home') {
       return <Home />;
     }
-    if (currentPage === 'About Me') {
+    if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'My Work') {
+    if (currentPage === 'Projects') {
       return <Projects />;
     }
     return <Contact />;
