@@ -8,9 +8,9 @@ const styles = {
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
-function Nav({ currentPage, handlePageChange }) {
+function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar shadow rounded-3 sticky-top navbar-expand-lg navbar-dark py-2" style={styles.nav}>
+    <nav className="navbar shadow rounded-3 sticky-top navbar-expand-md navbar-dark py-2" style={styles.nav}>
         <a className="navbar-brand mx-3" href="#home" onClick={() => handlePageChange('Home')}>
             
             <h1> Portfolio</h1>
@@ -56,4 +56,4 @@ function Nav({ currentPage, handlePageChange }) {
   );
 }
 
-export default Nav;
+export default NavTabs;
