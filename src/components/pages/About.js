@@ -15,7 +15,7 @@ export default function About() {
                 {/* <img class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block img-fluid" height="700px" src="./assets/images/IMG_6895-cutout.png" alt="Konner standing with hands in pockets and a smile on his face."> */}
             </section>
 
-            <div className="accordion my-5 d-none" id="accordionExample">
+            <div className="accordion my-5" id="accordionExample">
                 <h2 className="text-center fw-bold">About Me</h2>
                 <div>
                     <div className="card-header bg-dark" id="headingOne">

@@ -8,7 +8,7 @@ const styles = {
 
 export default function Contact() {
   return (
-    <div id="reachMe" className="container d-none gx-5">
+    <div id="reachMe" className="container gx-5">
         <h2 className="text-center fw-bold mt-5" id="contact">Reach out</h2>
         <p className="fw-bold text-center">I look forward to hearing from you!</p>
         <div className="row text-center">

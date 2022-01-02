@@ -9,7 +9,7 @@ const styles = {
 
 export default function Projects() {
     return (
-        <div id="myWork" className="container d-none pt-5">
+        <div id="myWork" className="container pt-5">
         <h2 className="text-center fw-bold">
             My Work
         </h2>
