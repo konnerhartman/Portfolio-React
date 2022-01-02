@@ -1,4 +1,11 @@
 import React from "react";
+import BlogGif from "../../images/BuggysBlog.gif";
+import EmployeeTrackerGif from "../../images/Employee_Tracker_SQL.gif";
+import NoteTakerGif from "../../images/Note_Taker.gif";
+import FetchABuzzImg from "../../images/Fetch-A-Buzz.png";
+import POCOImg from "../../images/perilousoutdoors.png";
+import GoogleDriveImg from "../../images/google-drive.png";
+
 
 const styles = {
     card: {
@@ -19,7 +26,7 @@ export default function Projects() {
         <div className="mb-3 shadow-lg">
             <div className="row g-0 rounded" style={styles.card}>
                 <div className="col-md-4">
-                    {/* <img class="shadow bg-secondary rounded img-fluid" src="./assets/images/BuggysBlog.gif" alt="Screen capture of link."> */}
+                    <img className="shadow bg-secondary rounded img-fluid" src={BlogGif} alt="Screen capture of link."/>
                     <button type="button" className="btn btn-outline-light m-1">
                         <a target="blank" className="nav-link active text-reset" href="https://buggys-blog.herokuapp.com/">Deployed Page</a>
                     </button>        
@@ -41,7 +48,7 @@ export default function Projects() {
         <div className="mb-3 shadow-lg">
             <div className="row g-0 rounded" style={styles.card}>
                 <div className="col-md-4">
-                    {/* <img class="shadow bg-secondary rounded img-fluid" src="./assets/images/Employee_Tracker_SQL.gif" alt="Screen capture of link."> */}
+                    <img class="shadow bg-secondary rounded img-fluid" src={EmployeeTrackerGif} alt="Screen capture of link."/>
                     <button type="button" className="btn btn-outline-light m-1">
                         <a target="blank" className="nav-link active text-reset" href="https://youtu.be/Tyaef5QoG08">Demo Video</a>
                     </button>        
@@ -63,7 +70,7 @@ export default function Projects() {
         <div className="mb-3 shadow-lg">
             <div className="row g-0 rounded" style={styles.card}>
                 <div className="col-md-4">
-                    {/* <img class="shadow bg-secondary rounded img-fluid" src="./assets/images/Note_Taker.gif" alt="Screen capture of link."> */}
+                    <img class="shadow bg-secondary rounded img-fluid" src={NoteTakerGif} alt="Screen capture of link."/>
                     <button type="button" className="btn btn-outline-light m-1">
                         <a target="blank" className="nav-link active text-reset" href=" https://shielded-hollows-62643.herokuapp.com/">Deployed Page</a>
                     </button>        
@@ -85,7 +92,7 @@ export default function Projects() {
         <div className="mb-3 shadow-lg">
             <div className="row g-0 rounded" style={styles.card}>
                 <div className="col-md-4">
-                    {/* <img class="shadow bg-secondary rounded img-fluid" src="./assets/images/Fetch-A-Buzz.png" alt="Screen capture of link."> */}
+                    <img class="shadow bg-secondary rounded img-fluid" src={FetchABuzzImg} alt="Screen capture of link."/>
                     <button type="button" className="btn btn-outline-light m-1">
                         <a target="blank" className="nav-link active text-reset" href="https://konnerhartman.github.io/Fetch-A-Buzz/">Deployed Page</a>
                     </button>        
@@ -106,7 +113,7 @@ export default function Projects() {
             {/* <!-- Web Design --> */}
             <div className="col m-1 rounded shadow-lg" style={styles.card}>
                 <h5 className="card-title text-center bg-dark p-3 rounded">Template Website Design</h5>
-                {/* <img class="shadow bg-secondary rounded img-fluid" src="./assets/images/perilousoutdoors.png" alt="Screen capture of link."> */}
+                <img class="shadow bg-secondary rounded img-fluid" src={POCOImg} alt="Screen capture of link."/>
                 <div className="card-body">
                     <p className="card-text">Here is an example of light web design I have done using a template site. This specific site was created on SquareSpace.com.</p>
                 </div>
@@ -117,7 +124,7 @@ export default function Projects() {
             {/* <!-- Google Portfolio --> */}
             <div className="col m-1 rounded shadow-lg" style={styles.card}>
                 <h5 className="card-title text-center bg-dark p-3 rounded">Other Interests</h5>
-                {/* <img target="blank" class="shadow rounded img-fluid" src="./assets/images/google-drive.png" alt="Screen capture of link."> */}
+                <img target="blank" class="shadow rounded img-fluid" src={GoogleDriveImg} alt="Screen capture of link."/>
                 <div className="card-body">
                     <p className="card-text">This Google page will give you a glimpse into other branches of my life. Get a better feel for who I am.</p> 
                 </div>
