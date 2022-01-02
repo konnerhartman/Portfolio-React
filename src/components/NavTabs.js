@@ -1,4 +1,5 @@
 import React from 'react';
+import KHLogo from '../images/KH-LOGO copy.png';
 
 const styles = {
     nav: {
@@ -13,7 +14,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     <nav className="navbar shadow rounded-3 sticky-top navbar-expand-md navbar-dark py-2" style={styles.nav}>
         <a className="navbar-brand mx-3" href="#home" onClick={() => handlePageChange('Home')}>
             
-            <h1> Portfolio</h1>
+            <h1><img width="40px" src={KHLogo} alt='Konner Hartman Logo'/> Portfolio</h1>
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
