@@ -124,7 +124,7 @@ export default function Projects() {
             {/* <!-- Google Portfolio --> */}
             <div className="col m-1 rounded shadow-lg" style={styles.card}>
                 <h5 className="card-title text-center bg-dark p-3 rounded">Other Interests</h5>
-                <img target="blank" class="shadow rounded img-fluid" src={GoogleDriveImg} alt="Screen capture of link."/>
+                <img target="blank" className="shadow rounded img-fluid" src={GoogleDriveImg} alt="Screen capture of link."/>
                 <div className="card-body">
                     <p className="card-text">This Google page will give you a glimpse into other branches of my life. Get a better feel for who I am.</p> 
                 </div>

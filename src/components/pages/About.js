@@ -1,4 +1,5 @@
 import React from 'react';
+import ProfPic from '../../images/Prof-Pic-Square.jpg'
 
 const styles = {
     cardBody: {
@@ -11,11 +12,11 @@ export default function About() {
   return (
     <div className="container ms-0 ps-0">
         <div className="row">
-            <section className="intro col-lg-4">
-                {/* <img class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block img-fluid" height="700px" src="./assets/images/IMG_6895-cutout.png" alt="Konner standing with hands in pockets and a smile on his face."> */}
+            <section className="col-lg-4">
+                <img className="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block img-fluid rounded-circle" height="700px" src={ProfPic} alt="Konner standing with hands in pockets and a smile on his face."/>
             </section>
 
-            <div className="accordion my-5" id="accordionExample">
+            <div className="col-lg-8 accordion my-5" id="accordionExample">
                 <h2 className="text-center fw-bold">About Me</h2>
                 <div>
                     <div className="card-header bg-dark" id="headingOne">
