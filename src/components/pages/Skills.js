@@ -14,13 +14,13 @@ export default function Skills() {
                 <section className="col-lg-4">
                     <img className="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block img-fluid rounded-circle" height="700px" src={compEmoji} alt="Konner standing with hands in pockets and a smile on his face."/>
                 </section>
-                <div className='col-lg-8 text-center'>
-                    <h2>Skills</h2>
+                <div className='col-lg-8 text-center my-5'>
+                    <h2 className='pb-2 fw-bold'>Skills</h2>
                     <div className='row'>
                         <div className='col-6'>
-                            <h4>Front End</h4>
+                            <h4 className='pb-3'>Front End</h4>
                             <div className='row'>
-                                <div className='col-lg-6'>
+                                <div className='col-lg-6 col-sm-12'>
                                     <div>
                                         <i style={styles.icon} class="devicon-javascript-plain colored"></i>
                                         <p>JavaScript</p>
@@ -55,7 +55,41 @@ export default function Skills() {
                             </div>
                         </div>
                         <div className='col-6'>
-                            <h4>Back End</h4>
+                            <h4 className='pb-3'>Back End</h4>
+                            <div className='row'>
+                                <div className='col-lg-6 col-sm-12'>
+                                    <div>
+                                        <i style={styles.icon} class="devicon-nodejs-plain colored"></i>
+                                        <p>NodeJS</p>
+                                    </div>
+                                    <div>
+                                        <i style={styles.icon} class="devicon-npm-original-wordmark colored"></i>
+                                        <p>NPM</p>
+                                    </div>
+                                    <div>
+                                        <i style={styles.icon} class="devicon-express-original colored"></i>
+                                        <p>Express</p>
+                                    </div>
+                                </div>
+                                <div className='col-lg-6'>
+                                    <div>
+                                        <i style={styles.icon} class="devicon-mysql-plain colored"></i>
+                                        <p>MySQL</p>
+                                    </div>
+                                    <div>
+                                        <i style={styles.icon} class="devicon-sequelize-plain colored"></i>
+                                        <p>Sequelize</p>
+                                    </div>
+                                    <div>
+                                        <i style={styles.icon} class="devicon-mongodb-plain colored"></i>
+                                        <p>MongoDB</p>
+                                    </div>
+                                </div>
+                                <div>
+                                        <i style={styles.icon} class="devicon-graphql-plain colored"></i>
+                                        <p>GraphQL</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
