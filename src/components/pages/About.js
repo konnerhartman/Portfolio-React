@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfPic from '../../images/Prof-Pic-Square.jpg'
+import smileEmoji from '../../images/kh-emoji-smile.png'
 
 const styles = {
     cardBody: {
@@ -13,7 +13,7 @@ export default function About() {
     <div className="container ms-0 ps-0">
         <div className="row">
             <section className="col-lg-4">
-                <img className="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block img-fluid rounded-circle" height="700px" src={ProfPic} alt="Konner standing with hands in pockets and a smile on his face."/>
+                <img className="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block img-fluid rounded-circle" height="700px" src={smileEmoji} alt="Konner standing with hands in pockets and a smile on his face."/>
             </section>
             <div className="col-lg-8 accordion my-5" id="accordionExample">
                 <h2 className="text-center fw-bold">About Me</h2>
