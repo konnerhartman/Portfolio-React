@@ -1,11 +1,11 @@
 import React from 'react';
-import computerEmoji from '../../images/kh-emoji-computer.png';
+import waveEmoji from '../../images/kh-emoji-wave.png';
 
 export default function Home() {
   return (
-    <div className="container rox">
+    <div className="container row">
         <div className="col-lg-4">
-            <img className="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block img-fluid rounded-circle" height="700px" src={computerEmoji} alt="Konner standing with hands in pockets and a smile on his face."/>
+            <img className="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block img-fluid" height="700px" src={waveEmoji} alt="Konner standing with hands in pockets and a smile on his face."/>
         </div>
         <div className="col-lg-8">
             <div className="my-5 mx-5 px-5 text-center">
