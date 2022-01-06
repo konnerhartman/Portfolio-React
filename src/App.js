@@ -4,9 +4,8 @@ import Footer from "./components/Footer";
 
 const styles = {
     portBody: {
-         backgroundColor: '#ffffff10',
-         backdropFilter: 'blur(12px)',
-         
+        backgroundColor: '#ffffff10',
+        backdropFilter: 'blur(12px)',
     }
 }
 

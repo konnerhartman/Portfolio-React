@@ -15,7 +15,6 @@ export default function About() {
             <section className="col-lg-4">
                 <img className="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block img-fluid rounded-circle" height="700px" src={ProfPic} alt="Konner standing with hands in pockets and a smile on his face."/>
             </section>
-
             <div className="col-lg-8 accordion my-5" id="accordionExample">
                 <h2 className="text-center fw-bold">About Me</h2>
                 <div>
@@ -26,7 +25,6 @@ export default function About() {
                         </button>
                         </h2>
                     </div>
-                
                     <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                         <div className="card-body" style={styles.cardBody}>
                             <p>Building is my passion. As a child, I would lock myself away in my bedroom, spending endless hours creating anything and everything with Lego, Lincoln Logs, or other building toys. The older I became, the more I gained the trust of my father with power tools… because believe it or not, power tools can pose a bit of danger in the hands of a pre-teen. The power tools allowed me to create and transpire my love for creating through the medium of wood. I can vividly remember the days my dad took me on construction sites where I assisted with house add-ons, building decks, awnings, etc. The building went beyond that. We spent countless hours in his workshop, music blasting, garage door open — just creating.</p>

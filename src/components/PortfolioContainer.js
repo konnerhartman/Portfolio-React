@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Skills from './pages/Skills';
 
 
 export default function PortfolioContainer() {
@@ -16,6 +17,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'About') {
       return <About />;
+    }
+    if (currentPage === 'Skills') {
+      return <Skills />;
     }
     if (currentPage === 'Projects') {
       return <Projects />;
