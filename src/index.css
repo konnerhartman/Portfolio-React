@@ -1,0 +1,11 @@
+html, body, #root {
+    height: 100%;
+}
+
+body {
+    background-color: #d7cec7; 
+    background-image: url(./images/background-bw.jpg);
+    background-attachment: fixed;
+    background-position: bottom left; 
+    background-repeat: no-repeat; background-size: cover;
+}
