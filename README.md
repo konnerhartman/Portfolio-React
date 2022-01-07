@@ -16,33 +16,33 @@
   - [Questions](#questions)
 
   ## Screencapture
-  ![Gif](./public/assets/.gif)
+  ![Gif](./public/images/Portfolio_K.Hartman.gif)
 
   ## Installation
   There is no instalation process for this app as it is loaded to a live server.
 
   ## Usage
-  
+  This portfolio will serve as my personal portfolio as I complete my coding bootcamp and into my career. It will give potential employers and colleagues a look into who I am, my competencies, and my coding abilities. 
 
   ## License
   MIT
 
   ## Credits
   * Konner Hartman (myself)
-  * 
-  * 
-  * 
-  * 
+  * BSC Tutor
+  * https://www.getboostrap.com
+  * https://www.stackoverflow.com 
+  * https://reactjs.org/docs/getting-started.html
 
   ## Links
   Deployed Link:
   </br>
-  * 
+  * https://konnerhartman.github.io/Portfolio-React/
   </br>
 
   GitHub Repository:
   </br>
-  * 
+  * https://github.com/konnerhartman/Portfolio-React
 
   ## Tests
   There are no tests included with this project.
