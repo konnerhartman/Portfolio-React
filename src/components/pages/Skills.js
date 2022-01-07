@@ -11,10 +11,10 @@ export default function Skills() {
     return (
         <div className="container ms-0 ps-0">
             <div className="row">
-                <section className="col-lg-4">
-                    <img className="d-none d-sm-block d-sm-none d-md-none d-md-block d-lg-block img-fluid" src={compEmoji} alt="Emoji of Konner on his computer."/>
-                </section>
-                <div className='col-lg-8 text-center my-5'>
+                <div className="d-none d-sm-none d-md-block d-lg-block col-4">
+                    <img className="img-fluid" src={compEmoji} alt="Emoji of Konner on his computer."/>
+                </div>
+                <div className='col-lg-8 col-md-8 col-sm-12 text-center my-5'>
                     <h2 className='pb-2 fw-bold'>Skills</h2>
                     <div className='row'>
                         <div className='col-lg-6 col-sm-12'>

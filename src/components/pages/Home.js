@@ -4,10 +4,10 @@ import waveEmoji from '../../images/kh-emoji-wave.png';
 export default function Home() {
   return (
     <div className="container row my-4">
-        <div className="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block col-lg-4">
+        <div className="d-none d-sm-none d-md-block d-lg-block col-4">
             <img className="img-fluid" src={waveEmoji} alt="Emoji of Konner waving his hand."/>
         </div>
-        <div className="col-lg-8 col-sm-12">
+        <div className="col-lg-8 col-md-8 col-sm-12">
             <div className="text-center">
                 <h2 className='fw-bold m-3'>FULL STACK WEB DEVELOPER</h2>
                 <p className="fw-bold m-3">Click any of the links in the navigation bar above to learn a little about me.</p>
