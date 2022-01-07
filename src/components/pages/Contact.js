@@ -10,7 +10,7 @@ const styles = {
 export default function Contact() {
   return (
     <div className='container row my-4'>
-        <div className='d-none d-sm-none d-md-block d-lg-block col-4'>
+        <div className='d-none d-sm-none d-md-none d-lg-block col-4'>
             <img className="img-fluid rounded-circle" src={ProfPic} alt="Konner sitting infront of his desk with a big smile on his face!."/>
         </div>
         <div className="col-8 container text-center">
