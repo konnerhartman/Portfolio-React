@@ -27,17 +27,17 @@ function NavTabs({ currentPage, handlePageChange }) {
                             href="#about"
                             onClick={() => handlePageChange('About')}
                             // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About Me
+                            className={currentPage === 'About' ? 'nav-link' : 'nav-link active text-reset'}>About Me
                         </a>
                     </button>
                 </li>
                 <li className="nav-item mx-2">
                     <button type="button" className="btn btn-outline-light" >
                         <a 
-                            href="#about"
+                            href="#skills"
                             onClick={() => handlePageChange('Skills')}
                             // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                            className={currentPage === 'Skills' ? 'nav-link active' : 'nav-link'}>Skills
+                            className={currentPage === 'Skills' ? 'nav-link' : 'nav-link active text-reset'}>Skills
                         </a>
                     </button>
                 </li>
@@ -47,7 +47,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                             href="#projects"
                             onClick={() => handlePageChange('Projects')}
                             // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                            className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>My Work
+                            className={currentPage === 'Projects' ? 'nav-link' : 'nav-link active text-reset'}>My Work
                         </a>                    
                     </button>
                 </li>
@@ -57,7 +57,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                             href="#contact"
                             onClick={() => handlePageChange('Contact')}
                             // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Reach Out
+                            className={currentPage === 'Contact' ? 'nav-link' : 'nav-link active text-reset'}>Reach Out
                         </a>                    
                     </button>
                 </li>

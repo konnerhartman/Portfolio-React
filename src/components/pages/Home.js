@@ -3,16 +3,16 @@ import waveEmoji from '../../images/kh-emoji-wave.png';
 
 export default function Home() {
   return (
-    <div className="container row">
-        <div className="col-lg-4">
-            <img className="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block img-fluid" height="700px" src={waveEmoji} alt="Konner standing with hands in pockets and a smile on his face."/>
+    <div className="container row m-5">
+        <div className="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block col-lg-4">
+            <img className="img-fluid" src={waveEmoji} alt="Emoji of Konner waving his hand."/>
         </div>
-        <div className="col-lg-8">
-            <div className="my-5 mx-5 px-5 text-center">
-                <h2>FULL STACK WEB DEVELOPER</h2>
-                <p className="fw-bold py-0 my-0">Click any of the links in the navigation bar above to learn a little about me.</p>
-                <p className="fw-bold py-0 my-0">-OR-</p>
-                <p className="fw-bold pt-0 mt-0">Let's get straight to business!</p>
+        <div className="col-lg-8 col-sm-12">
+            <div className="text-center">
+                <h2 className='fw-bold py-0 m-3'>FULL STACK WEB DEVELOPER</h2>
+                <p className="fw-bold py-0 m-3">Click any of the links in the navigation bar above to learn a little about me.</p>
+                <p className="fw-bold py-0 m-3">-OR-</p>
+                <p className="fw-bold pt-0 m-3">Let's get straight to business!</p>
                 <button type="button" className="btn btn-outline-light mx-2">
                     <a target="_blank" rel="noreferrer" className="nav-link active text-reset" href="https://github.com/konnerhartman">Github</a>
                 </button>

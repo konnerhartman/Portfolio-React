@@ -12,15 +12,15 @@ export default function Skills() {
         <div className="container ms-0 ps-0">
             <div className="row">
                 <section className="col-lg-4">
-                    <img className="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block img-fluid rounded-circle" height="700px" src={compEmoji} alt="Konner standing with hands in pockets and a smile on his face."/>
+                    <img className="d-none d-sm-block d-sm-none d-md-none d-md-block d-lg-block img-fluid" src={compEmoji} alt="Emoji of Konner on his computer."/>
                 </section>
                 <div className='col-lg-8 text-center my-5'>
                     <h2 className='pb-2 fw-bold'>Skills</h2>
                     <div className='row'>
-                        <div className='col-6'>
+                        <div className='col-lg-6 col-sm-12'>
                             <h4 className='pb-3'>Front End</h4>
-                            <div className='row'>
-                                <div className='col-lg-6 col-sm-12'>
+                            <div className='row m-3'>
+                                <div className='col-6'>
                                     <div>
                                         <i style={styles.icon} class="devicon-javascript-plain colored"></i>
                                         <p>JavaScript</p>
@@ -34,7 +34,7 @@ export default function Skills() {
                                         <p>CSS</p>
                                     </div>
                                 </div>
-                                <div className='col-lg-6'>
+                                <div className='col-6'>
                                     <div>
                                         <i style={styles.icon} class="devicon-react-original colored"></i>
                                         <p>React</p>
@@ -54,10 +54,10 @@ export default function Skills() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-6'>
+                        <div className='col-lg-6 col-sm-12'>
                             <h4 className='pb-3'>Back End</h4>
-                            <div className='row'>
-                                <div className='col-lg-6 col-sm-12'>
+                            <div className='row m-3'>
+                                <div className='col-6'>
                                     <div>
                                         <i style={styles.icon} class="devicon-nodejs-plain colored"></i>
                                         <p>NodeJS</p>
@@ -71,7 +71,7 @@ export default function Skills() {
                                         <p>Express</p>
                                     </div>
                                 </div>
-                                <div className='col-lg-6'>
+                                <div className='col-6'>
                                     <div>
                                         <i style={styles.icon} class="devicon-mysql-plain colored"></i>
                                         <p>MySQL</p>
