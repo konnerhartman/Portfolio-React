@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.1a8a0596.css",
-    "main.js": "/Portfolio-React/static/js/main.8b367ce4.js",
+    "main.css": "/Portfolio-React/static/css/main.0dbec131.css",
+    "main.js": "/Portfolio-React/static/js/main.4e798f2c.js",
     "static/media/Employee_Tracker_SQL.gif": "/Portfolio-React/static/media/Employee_Tracker_SQL.386a3ea13945191170ae.gif",
     "static/media/BuggysBlog.gif": "/Portfolio-React/static/media/BuggysBlog.f684c330f8a15976fc1a.gif",
     "static/media/Note_Taker.gif": "/Portfolio-React/static/media/Note_Taker.9319cf1fbaf0493a84fc.gif",
+    "static/media/background-bw.jpg": "/Portfolio-React/static/media/background-bw.181ef0c8e9dd488e6dc5.jpg",
     "static/media/Prof-Pic-Square.jpg": "/Portfolio-React/static/media/Prof-Pic-Square.245aab73d9538d9dfee8.jpg",
     "static/media/perilousoutdoors.png": "/Portfolio-React/static/media/perilousoutdoors.11556ec6ebc7491c00a7.png",
     "static/media/kh-emoji-wave.png": "/Portfolio-React/static/media/kh-emoji-wave.0e365b8690fbcefc7794.png",
@@ -14,11 +15,11 @@
     "static/media/KH-LOGO copy.png": "/Portfolio-React/static/media/KH-LOGO copy.92005212f3d072ac273e.png",
     "static/media/google-drive.png": "/Portfolio-React/static/media/google-drive.95ec892fb6175fa06c30.png",
     "index.html": "/Portfolio-React/index.html",
-    "main.1a8a0596.css.map": "/Portfolio-React/static/css/main.1a8a0596.css.map",
-    "main.8b367ce4.js.map": "/Portfolio-React/static/js/main.8b367ce4.js.map"
+    "main.0dbec131.css.map": "/Portfolio-React/static/css/main.0dbec131.css.map",
+    "main.4e798f2c.js.map": "/Portfolio-React/static/js/main.4e798f2c.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a8a0596.css",
-    "static/js/main.8b367ce4.js"
+    "static/css/main.0dbec131.css",
+    "static/js/main.4e798f2c.js"
   ]
 }
