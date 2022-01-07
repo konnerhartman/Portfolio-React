@@ -11,7 +11,7 @@ export default function Skills() {
     return (
         <div className="container ms-0 ps-0">
             <div className="row">
-                <div className="d-none d-sm-none d-md-block d-lg-block col-4">
+                <div className="d-none d-sm-none d-md-block d-lg-block col-lg-4">
                     <img className="img-fluid" src={compEmoji} alt="Emoji of Konner on his computer."/>
                 </div>
                 <div className='col-lg-8 col-md-8 col-sm-12 text-center my-5'>
@@ -67,7 +67,7 @@ export default function Skills() {
                                         <p>NPM</p>
                                     </div>
                                     <div>
-                                        <i style={styles.icon} class="devicon-express-original colored"></i>
+                                        <i style={styles.icon} class="devicon-express-original"></i>
                                         <p>Express</p>
                                     </div>
                                 </div>

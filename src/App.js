@@ -6,9 +6,6 @@ const styles = {
     portBody: {
         backgroundColor: '#ffffff10',
         backdropFilter: 'blur(12px)',
-    },
-    mainBody: {
-      height: '100vh'
     }
 }
 
