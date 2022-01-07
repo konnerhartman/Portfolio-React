@@ -2,7 +2,11 @@
   ![License Badge](https://img.shields.io/badge/License-MIT-green.svg)    
 
   ## Description
-  My latest version of my portfolio using React.
+  This is my latest version of my portfolio using React. 
+  My motivation to build this portfolio was to gain valuable experience using React.
+  Aside from gaining experience, I built this app to showcase my abilities with the technologies that were used (NodeJS, NPM, JavaScript, CSS, HTML, React, Bootstrap).
+  While working on this project, I stuggled a bit with the layout, where everything belonged, and how it all connected and worked together with the React app.
+  The issues presented above allowed me the opportunity to dive into documentation and find resolutions. I essentially learned how to use React while building this portfolio.
 
   ## Table of Contents
   - [Description](#)
