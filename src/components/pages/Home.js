@@ -4,15 +4,23 @@ import waveEmoji from '../../images/kh-emoji-wave.png';
 export default function Home() {
   return (
     <div className="container row my-4">
-        <div className="d-none d-sm-none d-md-block d-lg-block col-4">
-            <img className="img-fluid" src={waveEmoji} alt="Emoji of Konner waving his hand."/>
-        </div>
         <div className="col-lg-8 col-md-8 col-sm-12">
+            <div class="animated-title">
+                <div class="text-top">
+                    <div>
+                    <span>Konner</span>
+                    <span>Hartman</span>
+                    </div>
+                </div>
+                <div class="text-bottom">
+                    <div>Full Stack Web Developer</div>
+                </div>
+            </div>
+        </div>
+        <div className="col-lg-4 col-md-4 col-sm-12">
+            <img className="d-none d-sm-none d-md-block d-lg-block img-fluid" src={waveEmoji} alt="Emoji of Konner waving his hand."/>
             <div className="text-center">
-                <h2 className='fw-bold m-3'>FULL STACK WEB DEVELOPER</h2>
-                <p className="fw-bold m-3">Click any of the links in the navigation bar above to learn a little about me.</p>
-                <p className="fw-bold m-3">-OR-</p>
-                <p className="fw-bold m-3">Let's get straight to business!</p>
+                <p className="fw-bold m-3">Let's get to business!</p>
                 <div className='mb-5'>
                     <button type="button" className="btn btn-outline-light mx-2">
                         <a target="_blank" rel="noreferrer" className="nav-link active text-reset" href="https://github.com/konnerhartman">Github</a>
