@@ -1,5 +1,6 @@
 import React from 'react';
-import smileEmoji from '../../images/kh-emoji-smile.png'
+import smileEmoji from '../../images/kh-emoji-smile.png';
+import resume from '../../images/Konner_Hartman_Full_Resume.pdf';
 
 export default function About() {
   return (
@@ -12,8 +13,10 @@ export default function About() {
                 <h2 className="fw-bold">About Me</h2>
                 <div>
                     <p>An innovative problem-solver passionate about user experience, my current focus is on app functionality and development.</p>
-
                     <p>I am a Full Stack Web Developer with an emphasis on back end development, holding a Bachelor of Science From Texas A&M University. I will soon be receiving a certificate in Full Stack Development from the Southern Methodist University, where I developed skills in JavaScript, MySQL, MongoDB, NodeJS, React.js, and more.</p>
+                    <button type="button" className="btn btn-outline-light mx-2">
+                        <a target="_blank" rel="noreferrer" className="nav-link active text-reset" href={resume}>Resume</a>
+                    </button>
                 </div>
                 {/* <div>
                     <div className="card-header bg-dark" id="headingOne">

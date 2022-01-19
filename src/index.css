@@ -3,11 +3,12 @@ html, body, #root {
 }
 
 body {
-    background-color: #d7cec7; 
-    background-image: url(./images/background-bw.jpg);
-    background-attachment: fixed;
-    background-position: bottom left; 
-    background-repeat: no-repeat; background-size: cover;
+  font-family: Roboto, Arial, sans-serif;
+  background-color: #d7cec7; 
+  background-image: url(./images/background-bw.jpg);
+  background-attachment: fixed;
+  background-position: bottom left; 
+  background-repeat: no-repeat; background-size: cover;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
@@ -29,7 +30,6 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  display: flex;
 }
 .animated-title > div {
   height: 50%;
@@ -50,7 +50,7 @@ body {
   top: 0;
 }
 .animated-title > div.text-top div {
-  animation: showTopText 1s;
+  animation: showTopText 2s;
   animation-delay: 0.5s;
   animation-fill-mode: forwards;
   bottom: 0;
@@ -63,8 +63,8 @@ body {
   bottom: 0;
 }
 .animated-title > div.text-bottom div {
-  animation: showBottomText 0.5s;
-  animation-delay: 1.75s;
+  animation: showBottomText 2s;
+  animation-delay: 2.75s;
   animation-fill-mode: forwards;
   top: 0;
   transform: translate(0, -100%);
