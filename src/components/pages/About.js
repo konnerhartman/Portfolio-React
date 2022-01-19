@@ -15,9 +15,14 @@ export default function About() {
             <div className="col-lg-4">
                 <img className="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block img-fluid" src={smileEmoji} alt="Emoji of Konner smiling."/>
             </div>
-            <div className="col-lg-8 accordion my-5" id="accordionExample">
-                <h2 className="text-center fw-bold">About Me</h2>
+            <div className="text-center col-lg-8 my-5">
+                <h2 className="fw-bold">About Me</h2>
                 <div>
+                    <p>An innovative problem-solver passionate about user experience, my current focus is on app functionality and development.</p>
+
+                    <p>I am a Full Stack Web Developer with an emphasis on back end development, holding a Bachelor of Science From Texas A&M University. I will soon be receiving a certificate in Full Stack Development from the Southern Methodist University, where I developed skills in JavaScript, MySQL, MongoDB, NodeJS, React.js, and more.</p>
+                </div>
+                {/* <div>
                     <div className="card-header bg-dark" id="headingOne">
                         <h2 className="mb-0">
                         <button className="btn btn-link collapsed text-white text-decoration-none px-5" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -72,7 +77,7 @@ export default function About() {
                             <p>Thanks for making it this far! Check out some of my other links above.</p>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>
