@@ -1,13 +1,6 @@
 import React from 'react';
 import smileEmoji from '../../images/kh-emoji-smile.png'
 
-const styles = {
-    cardBody: {
-        color: 'white',
-        backgroundColor: '#565656'
-    }
-};
-
 export default function About() {
   return (
     <div className="container ms-0 ps-0">
