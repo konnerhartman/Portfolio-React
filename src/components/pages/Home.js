@@ -1,5 +1,6 @@
 import React from 'react';
 import waveEmoji from '../../images/kh-emoji-wave.png';
+import resume from '../../images/Konner_Hartman_Full_Resume.pdf';
 
 export default function Home() {
   return (
@@ -29,7 +30,7 @@ export default function Home() {
                         <a target="_blank" rel="noreferrer" className="nav-link active text-reset" href="https://www.linkedin.com/in/konner-hartman/">LinkedIn</a>
                     </button>
                     <button type="button" className="btn btn-outline-light mx-2">
-                        <a target="_blank" rel="noreferrer" className="nav-link active text-reset" href="https://drive.google.com/file/d/1JEeGyZeOsCBbJvjaGcXqMN_F2mmo1N4F/view">Resume</a>
+                        <a target="_blank" rel="noreferrer" className="nav-link active text-reset" href={resume}>Resume</a>
                     </button>
                 </div>
             </div>
