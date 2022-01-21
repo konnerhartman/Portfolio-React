@@ -4,6 +4,7 @@ html, body, #root {
 
 body {
   font-family: Roboto, Arial, sans-serif;
+  font-size: 18px;
   background-color: #d7cec7; 
   background-image: url(./images/background-bw.jpg);
   background-attachment: fixed;
