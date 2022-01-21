@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.a61d23ec.css",
-    "main.js": "/Portfolio-React/static/js/main.43df9854.js",
+    "main.css": "/Portfolio-React/static/css/main.f9f6cdf2.css",
+    "main.js": "/Portfolio-React/static/js/main.a1eccdde.js",
     "static/media/Employee_Tracker_SQL.gif": "/Portfolio-React/static/media/Employee_Tracker_SQL.386a3ea13945191170ae.gif",
     "static/media/BuggysBlog.gif": "/Portfolio-React/static/media/BuggysBlog.f684c330f8a15976fc1a.gif",
     "static/media/Note_Taker.gif": "/Portfolio-React/static/media/Note_Taker.9319cf1fbaf0493a84fc.gif",
@@ -16,11 +16,11 @@
     "static/media/KH-LOGO copy.png": "/Portfolio-React/static/media/KH-LOGO copy.92005212f3d072ac273e.png",
     "static/media/google-drive.png": "/Portfolio-React/static/media/google-drive.95ec892fb6175fa06c30.png",
     "index.html": "/Portfolio-React/index.html",
-    "main.a61d23ec.css.map": "/Portfolio-React/static/css/main.a61d23ec.css.map",
-    "main.43df9854.js.map": "/Portfolio-React/static/js/main.43df9854.js.map"
+    "main.f9f6cdf2.css.map": "/Portfolio-React/static/css/main.f9f6cdf2.css.map",
+    "main.a1eccdde.js.map": "/Portfolio-React/static/js/main.a1eccdde.js.map"
   },
   "entrypoints": [
-    "static/css/main.a61d23ec.css",
-    "static/js/main.43df9854.js"
+    "static/css/main.f9f6cdf2.css",
+    "static/js/main.a1eccdde.js"
   ]
 }
