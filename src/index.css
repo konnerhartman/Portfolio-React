@@ -3,13 +3,28 @@ html, body, #root {
 }
 
 body {
-  font-family: Roboto, Arial, sans-serif;
   font-size: 18px;
   background-color: #d7cec7; 
   background-image: url(./images/background-bw.jpg);
   background-attachment: fixed;
   background-position: bottom left; 
   background-repeat: no-repeat; background-size: cover;
+}
+
+h2, h1, button {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.btn {
+  background-color: black;
+}
+
+.navBtn  {
+  width: 120px;
+}
+
+.projBtn {
+  padding: 8px;
 }
 
 i {

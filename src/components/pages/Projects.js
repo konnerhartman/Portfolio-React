@@ -25,12 +25,12 @@ export default function Projects() {
 
         <div className="mb-3 shadow-lg">
             <div className="row g-0 rounded" style={styles.card}>
-                <div className="col-md-4">
+                <div className="col-md-4 text-center">
                     <img className="shadow bg-secondary rounded img-fluid" src={BlogGif} alt="Screen capture of link."/>
-                    <button type="button" className="btn btn-outline-light m-1">
+                    <button type="button" className="projBtn btn btn-outline-light m-1">
                         <a target="blank" className="nav-link active text-reset" href="https://buggys-blog.herokuapp.com/">Deployed Page</a>
                     </button>        
-                    <button type="button" className="btn btn-outline-light m-1">
+                    <button type="button" className="projBtn btn btn-outline-light m-1">
                         <a target="blank" className="nav-link active text-reset" href="https://github.com/konnerhartman/Tech-Blog">Repository</a>
                     </button>
                 </div>
@@ -47,12 +47,12 @@ export default function Projects() {
 
         <div className="mb-3 shadow-lg">
             <div className="row g-0 rounded" style={styles.card}>
-                <div className="col-md-4">
+                <div className="col-md-4 text-center">
                     <img class="shadow bg-secondary rounded img-fluid" src={EmployeeTrackerGif} alt="Screen capture of link."/>
-                    <button type="button" className="btn btn-outline-light m-1">
+                    <button type="button" className="projBtn btn btn-outline-light m-1">
                         <a target="blank" className="nav-link active text-reset" href="https://youtu.be/Tyaef5QoG08">Demo Video</a>
                     </button>        
-                    <button type="button" className="btn btn-outline-light m-1">
+                    <button type="button" className="projBtn btn btn-outline-light m-1">
                         <a target="blank" className="nav-link active text-reset" href="https://github.com/konnerhartman/Employee-Tracker">Repository</a>
                     </button>
                 </div>
@@ -69,12 +69,12 @@ export default function Projects() {
 
         <div className="mb-3 shadow-lg">
             <div className="row g-0 rounded" style={styles.card}>
-                <div className="col-md-4">
+                <div className="col-md-4 text-center">
                     <img class="shadow bg-secondary rounded img-fluid" src={NoteTakerGif} alt="Screen capture of link."/>
-                    <button type="button" className="btn btn-outline-light m-1">
+                    <button type="button" className="projBtn btn btn-outline-light m-1">
                         <a target="blank" className="nav-link active text-reset" href=" https://shielded-hollows-62643.herokuapp.com/">Deployed Page</a>
                     </button>        
-                    <button type="button" className="btn btn-outline-light m-1">
+                    <button type="button" className="projBtn btn btn-outline-light m-1">
                         <a target="blank" className="nav-link active text-reset" href="https://github.com/konnerhartman/Note-Taker">Repository</a>
                     </button>
                 </div>
@@ -91,12 +91,12 @@ export default function Projects() {
 
         <div className="mb-3 shadow-lg">
             <div className="row g-0 rounded" style={styles.card}>
-                <div className="col-md-4">
+                <div className="col-md-4 text-center">
                     <img class="shadow bg-secondary rounded img-fluid" src={FetchABuzzImg} alt="Screen capture of link."/>
-                    <button type="button" className="btn btn-outline-light m-1">
+                    <button type="button" className="projBtn btn btn-outline-light m-1">
                         <a target="blank" className="nav-link active text-reset" href="https://konnerhartman.github.io/Fetch-A-Buzz/">Deployed Page</a>
                     </button>        
-                    <button type="button" className="btn btn-outline-light m-1">
+                    <button type="button" className="projBtn btn btn-outline-light m-1">
                         <a target="blank" className="nav-link active text-reset" href="https://github.com/konnerhartman/Fetch-A-Buzz">Repository</a>
                     </button>
                 </div>
@@ -111,24 +111,24 @@ export default function Projects() {
 
         <div className="row g-0 content-justify-center">
             {/* <!-- Web Design --> */}
-            <div className="col m-1 rounded shadow-lg" style={styles.card}>
-                <h5 className="card-title text-center bg-dark p-3 rounded">Template Website Design</h5>
+            <div className="col m-1 rounded shadow-lg text-center" style={styles.card}>
+                <h5 className="card-title bg-dark p-3 rounded">Template Website Design</h5>
                 <img class="shadow bg-secondary rounded img-fluid" src={POCOImg} alt="Screen capture of link."/>
                 <div className="card-body">
                     <p className="card-text">Here is an example of light web design I have done using a template site. This specific site was created on SquareSpace.com.</p>
                 </div>
-                <button type="button" className="btn btn-outline-light">
+                <button type="button" className="projBtn btn btn-outline-light">
                     <a target="blank" rel="noreferrer" className="nav-link active text-reset" href="https://www.perilousoutdoors.com/">Visit Site</a>
                 </button>
             </div>
             {/* <!-- Google Portfolio --> */}
-            <div className="col m-1 rounded shadow-lg" style={styles.card}>
-                <h5 className="card-title text-center bg-dark p-3 rounded">Other Interests</h5>
+            <div className="col m-1 rounded shadow-lg text-center" style={styles.card}>
+                <h5 className="card-title bg-dark p-3 rounded">Other Interests</h5>
                 <img target="blank" className="shadow rounded img-fluid" src={GoogleDriveImg} alt="Screen capture of link."/>
                 <div className="card-body">
                     <p className="card-text">This Google page will give you a glimpse into other branches of my life. Get a better feel for who I am.</p> 
                 </div>
-                <button type="button" className="btn btn-outline-light">
+                <button type="button" className="projBtn btn btn-outline-light">
                     <a className="nav-link active text-reset" target="_blank" rel="noreferrer" href="https://drive.google.com/drive/folders/1UuTff7HrEOknrHOJARi-pUAUP2q-LWWB?usp=sharing">See More</a>
                 </button> 
             </div>  

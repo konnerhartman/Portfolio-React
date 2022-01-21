@@ -22,7 +22,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav mx-3 ms-auto">
                 <li className="nav-item mx-2">
-                    <button type="button" className="btn btn-outline-light" >
+                    <button type="button" className="navBtn btn btn-outline-light" >
                         <a 
                             href="#about"
                             onClick={() => handlePageChange('About')}
@@ -32,7 +32,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                     </button>
                 </li>
                 <li className="nav-item mx-2">
-                    <button type="button" className="btn btn-outline-light" >
+                    <button type="button" className="navBtn btn btn-outline-light" >
                         <a 
                             href="#skills"
                             onClick={() => handlePageChange('Skills')}
@@ -42,7 +42,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                     </button>
                 </li>
                 <li  className="nav-item mx-2">
-                    <button type="button" className="btn btn-outline-light">
+                    <button type="button" className="navBtn btn btn-outline-light">
                         <a 
                             href="#projects"
                             onClick={() => handlePageChange('Projects')}
@@ -52,7 +52,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                     </button>
                 </li>
                 <li className="nav-item mx-2">
-                    <button type="button" className="btn btn-outline-light">
+                    <button type="button" className="navBtn btn btn-outline-light">
                         <a 
                             href="#contact"
                             onClick={() => handlePageChange('Contact')}

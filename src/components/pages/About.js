@@ -12,9 +12,9 @@ export default function About() {
             <div className="text-center col-lg-8 my-5">
                 <h2 className="fw-bold">About Me</h2>
                 <div>
-                    <p>An innovative problem-solver passionate about user experience, my current focus is on app functionality and development.</p>
-                    <p>I am a Full Stack Web Developer with an emphasis on back end development, holding a Bachelor of Science From Texas A&M University. I will soon be receiving a certificate in Full Stack Development from Southern Methodist University, where I developed skills in JavaScript, MySQL, MongoDB, NodeJS, React.js, and more.</p>
-                    <button type="button" className="btn btn-outline-light mx-2">
+                    <p className='mt-4'>An innovative problem-solver passionate about user experience, my current focus is on app functionality and development.</p>
+                    <p className='mt-4'>I am a Full Stack Web Developer with an emphasis on back end development, holding a Bachelor of Science From Texas A&M University. I will soon be receiving a certificate in Full Stack Development from Southern Methodist University, where I developed skills in JavaScript, MySQL, MongoDB, NodeJS, React.js, and more.</p>
+                    <button type="button" className="aboutBtn btn btn-outline-light mt-4">
                         <a target="_blank" rel="noreferrer" className="nav-link active text-reset" href={resume}>Resume</a>
                     </button>
                 </div>

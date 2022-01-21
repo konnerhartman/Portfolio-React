@@ -28,7 +28,7 @@ export default function Contact() {
                         <a href="mailto:konner.hartman22@gmail.com"><i className="fas fa-envelope fa-5x"></i></a>
                     </div>
                 </div>
-                <button type="button" className="btn btn-outline-light m-2">
+                <button type="button" className="contactBtn btn btn-outline-light m-2">
                     <a target="_blank" rel="noreferrer" className="nav-link active text-reset" href={resume}>Resume</a>
                 </button>
             </div>
