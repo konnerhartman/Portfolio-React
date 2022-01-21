@@ -6,19 +6,19 @@ export default function Home() {
   return (
     <div className="container row my-4">
         <div className="col-lg-8 col-md-8 col-sm-12">
-            <div class="animated-title">
-                <div class="text-top">
+            <div className="animated-title">
+                <div className="text-top">
                     <div>
                     <span>Konner</span>
                     <span>Hartman</span>
                     </div>
                 </div>
-                <div class="text-bottom">
+                <div className="text-bottom">
                     <div>Full Stack Web Developer</div>
                 </div>
             </div>
         </div>
-        <div className="col-lg-4 col-md-4 col-sm-12">
+        <aside className="col-lg-4 col-md-4 col-sm-12">
             <img className="d-none d-sm-none d-md-block d-lg-block img-fluid" src={waveEmoji} alt="Emoji of Konner waving his hand."/>
             <div className="text-center">
                 <p className="fw-bold m-3">Let's get to business!</p>
@@ -34,7 +34,7 @@ export default function Home() {
                     </button>
                 </div>
             </div>
-        </div>
+        </aside>
     </div>
   );
 }

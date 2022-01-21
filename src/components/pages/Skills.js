@@ -11,9 +11,9 @@ export default function Skills() {
     return (
         <div className="container ms-0 ps-0">
             <div className="row">
-                <div className="d-none d-sm-none d-md-block d-lg-block col-lg-4">
+                <aside className="d-none d-sm-none d-md-block d-lg-block col-lg-4">
                     <img className="img-fluid" src={compEmoji} alt="Emoji of Konner on his computer."/>
-                </div>
+                </aside>
                 <div className='col-lg-8 col-md-8 col-sm-12 text-center my-5'>
                     <h2 className='pb-2 fw-bold'>Skills</h2>
                     <div className='row'>
