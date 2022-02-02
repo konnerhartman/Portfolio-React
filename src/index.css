@@ -44,10 +44,10 @@ i {
 .animated-title {
   color: rgb(255, 255, 255);
   font-family: Roboto, Arial, sans-serif;
-  height: 70vmin;
+  height: 105vmin;
   left: 50%;
   position: relative;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%, -50%);
   width: 100%;
 }
