@@ -24,13 +24,13 @@ export default function Home() {
                 <div className="text-center">
                     <p className="fw-bold m-3">Let's get to business!</p>
                     <div className='mb-5'>
-                        <button type="button" className="btn btn-outline-light mx-2">
+                        <button type="button" className="btn homeBtn btn-outline-light">
                             <a target="_blank" rel="noreferrer" className="nav-link active text-reset" href="https://github.com/konnerhartman">Github</a>
                         </button>
-                        <button type="button" className="btn btn-outline-light mx-2">
+                        <button type="button" className="btn homeBtn btn-outline-light">
                             <a target="_blank" rel="noreferrer" className="nav-link active text-reset" href="https://www.linkedin.com/in/konner-hartman/">LinkedIn</a>
                         </button>
-                        <button type="button" className="btn btn-outline-light mx-2">
+                        <button type="button" className="btn homeBtn btn-outline-light">
                             <a target="_blank" rel="noreferrer" className="nav-link active text-reset" href={resume}>Resume</a>
                         </button>
                     </div>

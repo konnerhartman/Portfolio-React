@@ -23,6 +23,11 @@ h2, h1, button {
   width: 120px;
 }
 
+.homeBtn {
+  margin: 5px;
+  width: 50%;
+}
+
 .projBtn {
   padding: 8px;
 }
