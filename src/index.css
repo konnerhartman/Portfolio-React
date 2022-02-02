@@ -17,15 +17,20 @@ h2, h1, button {
 
 .btn {
   background-color: black;
+  
 }
 
 .navBtn  {
-  width: 120px;
+  width: 90px;
+  font-size: .80rem;
+  padding: 0px;
 }
 
 .homeBtn {
   margin: 5px;
   width: 50%;
+  font-size: .80rem;
+  padding: 0px;
 }
 
 .projBtn {
