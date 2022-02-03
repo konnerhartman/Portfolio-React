@@ -12,26 +12,26 @@ export default function Contact() {
             <h2 className="text-center fw-bold" id="contact">Reach out</h2>
             <p className="fw-bold">I look forward to hearing from you!</p>
             <div className='row'>
-                <div className='col-6'>
-                    <div className='mb-3'>
+                <div className='col-md-6 col-sm-12'>
+                    <div className=''>
                         <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/konner-hartman/"><i className="fab fa-linkedin fa-5x"></i></a>
                     </div>
-                    <div className='m-3'>
+                    <div className=''>
                         <a href="tel:214-226-4278"><i className="fas fa-mobile-alt fa-5x"></i></a>
                     </div>
                 </div>
-                <div className='col-6'>
-                    <div className='mb-3'>
+                <div className='col-md-6 col-sm-12'>
+                    <div className=''>
                         <a target="_blank" rel="noreferrer" href="https://github.com/konnerhartman"><i className="fab fa-github-alt fa-5x"></i></a>
                     </div>
-                    <div className='m-3'>
+                    <div className=''>
                         <a href="mailto:konner.hartman22@gmail.com"><i className="fas fa-envelope fa-5x"></i></a>
                     </div>
                 </div>
-                <button type="button" className="contactBtn btn btn-outline-light m-2">
-                    <a target="_blank" rel="noreferrer" className="nav-link active text-reset" href={resume}>Resume</a>
-                </button>
             </div>
+            <button type="button" className="contactBtn btn btn-outline-light m-2">
+                <a target="_blank" rel="noreferrer" className="nav-link active text-reset" href={resume}>Resume</a>
+            </button>
         </div>
     </div>
   );

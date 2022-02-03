@@ -39,6 +39,7 @@ h2, h1, button {
 
 i {
   color: white;
+  margin: 10px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
