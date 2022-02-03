@@ -21,15 +21,15 @@ h2, h1, button {
 }
 
 .navBtn  {
-  width: 90px;
-  font-size: .80rem;
+  width: 95px;
+  font-size: 1rem;
   padding: 0px;
 }
 
 .homeBtn {
   margin: 5px;
-  width: 50%;
-  font-size: .80rem;
+  width: 33%;
+  font-size: 1rem;
   padding: 0px;
 }
 
