@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.60439b99.css",
+    "main.css": "/Portfolio-React/static/css/main.6347c77d.css",
     "main.js": "/Portfolio-React/static/js/main.8abc5482.js",
     "static/media/Employee_Tracker_SQL.gif": "/Portfolio-React/static/media/Employee_Tracker_SQL.386a3ea13945191170ae.gif",
     "static/media/BuggysBlog.gif": "/Portfolio-React/static/media/BuggysBlog.f684c330f8a15976fc1a.gif",
@@ -16,11 +16,11 @@
     "static/media/KH-LOGO copy.png": "/Portfolio-React/static/media/KH-LOGO copy.92005212f3d072ac273e.png",
     "static/media/google-drive.png": "/Portfolio-React/static/media/google-drive.95ec892fb6175fa06c30.png",
     "index.html": "/Portfolio-React/index.html",
-    "main.60439b99.css.map": "/Portfolio-React/static/css/main.60439b99.css.map",
+    "main.6347c77d.css.map": "/Portfolio-React/static/css/main.6347c77d.css.map",
     "main.8abc5482.js.map": "/Portfolio-React/static/js/main.8abc5482.js.map"
   },
   "entrypoints": [
-    "static/css/main.60439b99.css",
+    "static/css/main.6347c77d.css",
     "static/js/main.8abc5482.js"
   ]
 }
