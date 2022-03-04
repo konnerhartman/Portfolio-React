@@ -1,6 +1,6 @@
 import React from 'react';
 import ProfPic from '../../images/Prof-Pic-Square.jpg'
-import resume from '../../images/Konner_Hartman_Full_Resume.pdf';
+import resume from '../../images/K.-Hartman-Resume.pdf';
 
 export default function Contact() {
   return (

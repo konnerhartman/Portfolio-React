@@ -1,6 +1,6 @@
 import React from 'react';
 import smileEmoji from '../../images/kh-emoji-smile.png';
-import resume from '../../images/Konner_Hartman_Full_Resume.pdf';
+import resume from '../../images/K.-Hartman-Resume.pdf';
 
 export default function About() {
   return (
