@@ -1,7 +1,7 @@
 import React from "react";
 import BlogGif from "../../images/BuggysBlog.gif";
 import EmployeeTrackerGif from "../../images/Employee_Tracker_SQL.gif";
-import NoteTakerGif from "../../images/Note_Taker.gif";
+import KotaBearWoodworks from "../../images/Kota-Bear-Woodworks.gif";
 import FetchABuzzImg from "../../images/Fetch-A-Buzz.png";
 import POCOImg from "../../images/perilousoutdoors.png";
 import GoogleDriveImg from "../../images/google-drive.png";
@@ -26,18 +26,18 @@ export default function Projects() {
         <div className="mb-3 shadow-lg">
             <div className="row g-0 rounded" style={styles.card}>
                 <div className="col-md-4 text-center">
-                    <img className="shadow bg-secondary rounded img-fluid" src={BlogGif} alt="Screen capture of link."/>
+                    <img className="shadow bg-secondary rounded img-fluid" src={KotaBearWoodworks} alt="Screen capture of link."/>
                     <button type="button" className="projBtn btn btn-outline-light m-1">
-                        <a target="blank" className="nav-link active text-reset" href="https://buggys-blog.herokuapp.com/">Deployed Page</a>
+                        <a target="blank" className="nav-link active text-reset" href="https://kotabearwoodworks.herokuapp.com/">Deployed Page</a>
                     </button>        
                     <button type="button" className="projBtn btn btn-outline-light m-1">
-                        <a target="blank" className="nav-link active text-reset" href="https://github.com/konnerhartman/Tech-Blog">Repository</a>
+                        <a target="blank" className="nav-link active text-reset" href="https://github.com/konnerhartman/KotaBearWoodworks">Repository</a>
                     </button>
                 </div>
                 <div className="col-md-8">
-                    <h5 className="card-title text-center bg-dark p-3 rounded">"Buggy's Tech Blog"</h5>
+                    <h5 className="card-title text-center bg-dark p-3 rounded">"Kota Bear Woodworks"</h5>
                     <div className="card-body">
-                        <p className="card-text">This app is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.</p>
+                        <p className="card-text">This web app was built for a small business that produces handmade goods in DFW, Texas. It was built using the MERN stack (MongoBD, Express, React, Node). It also utilizes Bootstrap and EmailJS.</p>
                     </div>
                 </div>
             </div>
@@ -70,18 +70,18 @@ export default function Projects() {
         <div className="mb-3 shadow-lg">
             <div className="row g-0 rounded" style={styles.card}>
                 <div className="col-md-4 text-center">
-                    <img class="shadow bg-secondary rounded img-fluid" src={NoteTakerGif} alt="Screen capture of link."/>
+                    <img className="shadow bg-secondary rounded img-fluid" src={BlogGif} alt="Screen capture of link."/>
                     <button type="button" className="projBtn btn btn-outline-light m-1">
-                        <a target="blank" className="nav-link active text-reset" href=" https://shielded-hollows-62643.herokuapp.com/">Deployed Page</a>
+                        <a target="blank" className="nav-link active text-reset" href="https://buggys-blog.herokuapp.com/">Deployed Page</a>
                     </button>        
                     <button type="button" className="projBtn btn btn-outline-light m-1">
-                        <a target="blank" className="nav-link active text-reset" href="https://github.com/konnerhartman/Note-Taker">Repository</a>
+                        <a target="blank" className="nav-link active text-reset" href="https://github.com/konnerhartman/Tech-Blog">Repository</a>
                     </button>
                 </div>
                 <div className="col-md-8">
-                    <h5 className="card-title text-center bg-dark p-3 rounded">"Not Your Dad's Note Taking App"</h5>
+                    <h5 className="card-title text-center bg-dark p-3 rounded">"Buggy's Tech Blog"</h5>
                     <div className="card-body">
-                        <p className="card-text">The app allows the user to make notes of To-Dos that persist on the page by utilising API's and databases. It was creating using express.js. My motivation for this app was to create something that the user could use to help visualize and accomplish tasks. While bulding this app I learned a lot about express and routing! I utilized seperate files for each specific code, which presented me with challanges when it came to linking all the files togehter.</p>
+                        <p className="card-text">This app is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.</p>
                     </div>
                 </div>
             </div>
